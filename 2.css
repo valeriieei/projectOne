@@ -1,0 +1,158 @@
+body {
+  background-color: antiquewhite;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(123, 29, 29, 1);
+  color: rgb(226, 202, 174);
+  margin: -10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  line-height: 30px;
+}
+
+#logo {
+  font-size: 20px;
+}
+.revalia {
+  font-family: "Revalia", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  font-style: normal;
+  padding-top: 30px;
+}
+.navigation {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 15px;
+  align-items: center;
+  background-color: rgba(250, 235, 215, 0.8);
+  font-family: Helvetica, Open-Sans, "sans-serif-light", sans-serif;
+  margin: 0px;
+  width: 900px;
+  padding: 10px;
+}
+.navigation a {
+  font-size: 15px;
+  text-decoration: none;
+  color: rgb(5, 7, 6);
+}
+.navigation a:hover {
+  background-color: rgba(250, 235, 215, 0.5);
+}
+.icons {
+  display: flex;
+  position: absolute;
+  top: 60px;
+  right: 200px;
+  gap: 30px;
+}
+.icons a {
+  color: rgb(226, 202, 174);
+}
+
+.picture1 {
+  background-image: url(6740038ea0c01e5cb30e40d5_6740033c31a13a44a3ca2a99_chanel_cruise-2024-25_ad-campaign_photos-by-jamie-hawkesworth_dp_3-HD.jpeg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.description {
+  font-family: Helvetica, Open-Sans, "sans-serif-light", sans-serif;
+  position: relative;
+  top: 50%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.description a {
+  font-size: 40px;
+  color: rgb(4, 2, 2);
+  font-weight: 500;
+  text-decoration: none;
+}
+.description a:hover {
+  background-color: rgba(250, 235, 215, 0.4);
+}
+#desc1 {
+  font-weight: 400;
+  font-size: 30px;
+  color: rgb(15, 7, 7);
+}
+.picture2 {
+  background-image: url(Chanel-Cruise.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 100px;
+  margin-top: -18px;
+}
+.footer-container {
+  margin-top: 70px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 80%;
+  font-family: Helvetica, Open-Sans, "sans-serif-light", sans-serif;
+}
+.info1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-right: 100px;
+}
+.info2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-right: 100px;
+}
+.info3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-right: 100px;
+}
+.info1 a {
+  text-decoration: none;
+  color: black;
+  font-family: Helvetica, Open-Sans, "sans-serif-light", sans-serif;
+  font-size: 15px;
+}
+.info2 a {
+  text-decoration: none;
+  color: black;
+  font-family: Helvetica, Open-Sans, "sans-serif-light", sans-serif;
+  font-size: 15px;
+}
+.info3 a {
+  text-decoration: none;
+  color: black;
+  font-family: Helvetica, Open-Sans, "sans-serif-light", sans-serif;
+  font-size: 15px;
+}
+.info1 a:hover {
+  background-color: rgba(214, 196, 171, 0.4);
+}
+.info2 a:hover {
+  background-color: rgba(214, 196, 171, 0.4);
+}
+.info3 a:hover {
+  background-color: rgba(214, 196, 171, 0.4);
+}
+#emailformbutton {
+  background-color: rgb(159, 168, 142) !important;
+  width: 90px;
+  padding: 2px;
+  cursor: pointer;
+}
